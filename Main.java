@@ -8,16 +8,16 @@ public class Main {
 		kotak main = new kotak();
 			
 		// method setter kotak
-		main.setpanjang(11.11);
-		main.setlebar(2.12);
+		main.setpanjang(2.5);
+		main.setlebar(3.1);
 			
 		// method getter kotak
-		System.out.println("panjang : " + main.getpanjang());
-		System.out.println("lebar : " + main.getlebar());
-		System.out.println("luas : " + main.getpanjang()*main.getlebar());
+		System.out.println("panjang  : " + main.getpanjang());
+		System.out.println("lebar    : " + main.getlebar());
+		System.out.println("luas     : " + main.getpanjang()*main.getlebar());
 		System.out.println("keliling : " + main.getlebar()*main.getpanjang()*main.getlebar()*main.getpanjang());
 		
-		System.out.println("------Object Kelas mahasiswa------");
+		System.out.println("***Object Kelas mahasiswa***");
 		//membuat object dari class mahasiswa
 		Mahasiswa mahasiswa = new Mahasiswa();
 		
@@ -31,36 +31,36 @@ public class Main {
 		mahasiswa.beratBadan = "53";
 		
 		//method getter mahasiswa
-		System.out.println("nama : " + mahasiswa.getnama());
-		System.out.println("nim : " + mahasiswa.getnim());
-		System.out.println("alamat : " + mahasiswa.getalamat());
-		System.out.println("golongan Darah : " + mahasiswa.getgolongnDarah());
-		System.out.println("Status : " + mahasiswa.getstatus());
-		System.out.println("tinggi badan : " + mahasiswa.gettinggiBadan());
-		System.out.println("berat badan : " + mahasiswa.getberatBadan());
+		System.out.println("Nama           : " + mahasiswa.getnama());
+		System.out.println("Nim            : " + mahasiswa.getnim());
+		System.out.println("Alamat         : " + mahasiswa.getalamat());
+		System.out.println("Golongan Darah : " + mahasiswa.getgolongnDarah());
+		System.out.println("Status         : " + mahasiswa.getstatus());
+		System.out.println("Tinggi badan   : " + mahasiswa.gettinggiBadan());
+		System.out.println("Berat badan    : " + mahasiswa.getberatBadan());
 
-		System.out.println("------Object Kelas node------");
+		System.out.println("***Object Kelas Node***");
 		//membuat object dari kelas node
 		Node node = new Node();
 		
 		//method setter node
-		node.label = "Orang Nub";
+		node.label = "PEDJUANG DCINTAH";
 		node.Value = 6;
 		
 		//method getter node
-		System.out.println("Nama Label : " + node.getlabel());
-		System.out.println("jumlah label : " + node.getValue());
+		System.out.println("Nama Kelas       : " + node.getlabel());
+		System.out.println("Jumlah Mahasiswa : " + node.getValue());
 
-		System.out.println("------Object Kelas stack------");
+		System.out.println("***Object Kelas Stack***");
 		//membuat object dari kelas stack
 		Stack stack = new Stack();
 		
-		stack.value[0] = "Muhammadqadrii";
-		stack.value[1] = "mufli";
-		stack.value[2] = "wafiq";
-		stack.value[3] = "aming";
-		stack.value[4] = "Fajrin";
-		stack.value[5] = "Anmar";
+		stack.value[0] = "1.Muhammadqadrii";
+		stack.value[1] = "2.Mufli";
+		stack.value[2] = "3.Wafiq";
+		stack.value[3] = "4.Aming";
+		stack.value[4] = "5.Fajrin";
+		stack.value[5] = "6.Anmar";
 	
 
 		//menampilkan stack
@@ -71,5 +71,7 @@ public class Main {
 	
 
 	}
+
+
 
 
